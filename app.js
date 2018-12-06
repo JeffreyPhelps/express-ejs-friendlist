@@ -11,7 +11,7 @@ let friends = ['Norman', 'David', 'Ezekiel', 'Chris', 'Vivian'];
 
 
 app.get("/", function(req, res){
-   res.render("index.ejs"); 
+   res.redirect("/friends"); 
 });
 
 
